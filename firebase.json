@@ -15,7 +15,7 @@
     }
   ],
   "hosting": {
-    "public": "my-web-front/.next",
+    "public": "my-web-front/out",
     "ignore": [
       "firebase.json",
       "**/.*",
@@ -27,18 +27,5 @@
         "destination": "/index.html"
       }
     ]
-  },
-  "emulators": {
-    "functions": {
-      "port": 5001
-    },
-    "hosting": {
-      "port": 3000
-    },
-    "ui": {
-      "enabled": true,
-      "port": 4000
-    },
-    "singleProjectMode": true
   }
 }
