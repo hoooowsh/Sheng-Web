@@ -1,9 +1,9 @@
 import React from "react";
 import { MdExpandMore } from "react-icons/md";
-import installNode from "../public/assets/portfolio/installNode.jpg";
-import reactParallax from "../public/assets/portfolio/reactParallax.jpg";
 import rmp from "../public/assets/portfolio/RMP.png";
-import reactWeather from "../public/assets/portfolio/reactWeather.jpg";
+import cynorix_fileshare from "../public/assets/portfolio/Cynorix_fileshare.png";
+import syth from "../public/assets/portfolio/synthbiotic.png";
+import fuzzer from "../public/assets/portfolio/fuzzer.png";
 import Link from "next/link";
 import Image from "next/image";
 
@@ -11,15 +11,15 @@ const Portfolio = () => {
   const portfolios = [
     {
       id: 1,
-      title: "react weather app",
-      imageSrc: reactWeather,
-      url: "react-weather",
+      title: "Cynorix File Share",
+      imageSrc: cynorix_fileshare,
+      url: "cynorix_fileshare",
     },
     {
       id: 2,
-      title: "install node",
-      imageSrc: installNode,
-      url: "install-node",
+      title: "BroadCast-Fuzzer",
+      imageSrc: fuzzer,
+      url: "fuzzer",
     },
     {
       id: 3,
@@ -29,21 +29,27 @@ const Portfolio = () => {
     },
     {
       id: 4,
-      title: "react parallax scroll",
-      imageSrc: reactParallax,
-      url: "react-parallax",
+      title: "Synthbiotic Dungeon",
+      imageSrc: syth,
+      url: "synthbiotic-dungeon",
     },
   ];
 
   return (
-    <div id="portfolio" className="w-full bg-slate-700">
-      <div className="max-w-screen-xl mx-auto px-8 py-16 text-center md:text-left">
-        <h2 className="text-5xl md:text-7xl tracking-wider uppercase text-blue-500 font-bold">
+    <div id="portfolio" className="w-full bg-slate-700 text-center">
+      <div className="max-w-screen-xl mx-auto px-8 py-16 md:text-left">
+        <h2 className="text-3xl md:text-7xl tracking-wider uppercase text-blue-800 font-bold">
           Portfolio
         </h2>
-        <p className="py-4 max-w-lg">
-          whatever whatever asdffffffffffffffffffffffffffffffasdfsadfqwfasdfwwfw
-          wqerf sadv zxfwqer{" "}
+        <p className="py-4 text-white">
+          Welcome to my portfolio page! I am Sheng Hao, a highly skilled
+          programmer with many years of experience in software development.
+          <br></br>My diverse range of projects showcases my proficiency in
+          programming and my ability to collaborate with teams to achieve shared
+          goals. <br></br>From secure file-sharing platforms to Unreal Engine
+          game development, each project demonstrates my creativity and
+          problem-solving abilities. <br></br>Thank you for visiting my page,
+          and I look forward to working with you.
         </p>
 
         <div className="max-w-5xl mx-auto grid md:grid-cols-2 gap-8">
@@ -54,6 +60,8 @@ const Portfolio = () => {
                   src={imageSrc}
                   alt={title}
                   className="rounded-md duration-200 hover:scale-110"
+                  width={200}
+                  height={200}
                 />
                 <h2 className="text-center text-base capitalize my-4 font-light duration-200 group-hover:underline underline-offset-4">
                   {title}

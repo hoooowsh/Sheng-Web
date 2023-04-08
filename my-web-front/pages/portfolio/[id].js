@@ -1,8 +1,8 @@
 import React from "react";
-import installNode from "../../public/assets/portfolio/installNode.jpg";
-import reactParallax from "../../public/assets/portfolio/reactParallax.jpg";
 import rmp from "../../public/assets/portfolio/RMP.png";
-import reactWeather from "../../public/assets/portfolio/reactWeather.jpg";
+import cynorix_fileshare from "../../public/assets/portfolio/Cynorix_fileshare.png";
+import fuzzer from "../../public/assets/portfolio/fuzzer.png";
+import syth from "../../public/assets/portfolio/synthbiotic.png";
 import Link from "next/link";
 import Image from "next/image";
 import { FaGithub } from "react-icons/fa";
@@ -12,15 +12,15 @@ import { BiChevronLeft } from "react-icons/bi";
 const portfolios = [
   {
     id: 1,
-    title: "react weather app",
-    imageSrc: reactWeather,
-    url: "react-weather",
+    title: "Cynorix File Share",
+    imageSrc: cynorix_fileshare,
+    url: "cynorix_fileshare",
   },
   {
     id: 2,
-    title: "install node",
-    imageSrc: installNode,
-    url: "install-node",
+    title: "BroadCast-Fuzzer",
+    imageSrc: fuzzer,
+    url: "fuzzer",
   },
   {
     id: 3,
@@ -30,9 +30,9 @@ const portfolios = [
   },
   {
     id: 4,
-    title: "react parallax scroll",
-    imageSrc: reactParallax,
-    url: "react-parallax",
+    title: "Synthbiotic Dungeon",
+    imageSrc: syth,
+    url: "synthbiotic-dungeon",
   },
 ];
 
