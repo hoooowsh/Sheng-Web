@@ -3,7 +3,7 @@ import { MdExpandMore } from "react-icons/md";
 import rmp from "../public/assets/portfolio/RMP.png";
 import cynorix_fileshare from "../public/assets/portfolio/Cynorix_fileshare.png";
 import syth from "../public/assets/portfolio/synthbiotic.png";
-import fuzzer from "../public/assets/portfolio/fuzzer.png";
+import fuzzer from "../public/assets/portfolio/fuzzer.jpg";
 import Link from "next/link";
 import Image from "next/image";
 
@@ -42,8 +42,8 @@ const Portfolio = () => {
           Portfolio
         </h2>
         <p className="py-4 text-white">
-          Welcome to my portfolio page! I am Sheng Hao, a highly skilled
-          programmer with many years of experience in software development.
+          Welcome to my portfolio page! I am Sheng, a highly skilled programmer
+          with many years of experience in software development.
           <br></br>My diverse range of projects showcases my proficiency in
           programming and my ability to collaborate with teams to achieve shared
           goals. <br></br>From secure file-sharing platforms to Unreal Engine
@@ -60,10 +60,9 @@ const Portfolio = () => {
                   src={imageSrc}
                   alt={title}
                   className="rounded-md duration-200 hover:scale-110"
-                  width={200}
-                  height={200}
+                  style={{ objectFit: "cover", height: "210px" }}
                 />
-                <h2 className="text-center text-base capitalize my-4 font-light duration-200 group-hover:underline underline-offset-4">
+                <h2 className="text-center text-base capitalize my-4 font-light duration-200 group-hover:underline underline-offset-4 text-white">
                   {title}
                 </h2>
               </div>
