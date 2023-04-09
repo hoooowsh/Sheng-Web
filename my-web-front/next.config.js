@@ -7,10 +7,10 @@ module.exports = {
   images: {
     unoptimized: true,
   },
-  // output: "export",
+  output: "export",
   // set output to "standalone"
   // this will create a single bundle file for the client
   // instead of multiple chunks
-  output: "standalone",
-  distDir: "dist",
+  // output: "standalone",
+  // distDir: "dist",
 };
