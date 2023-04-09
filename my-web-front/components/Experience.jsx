@@ -54,17 +54,17 @@ const Experience = () => {
   ];
 
   return (
-    <div id="experience" className="w-full">
+    <div id="experience" className="w-full bg-slate-700">
       <div className="max-w-screen-xl mx-auto px-8 py-16 text-center md:text-left">
         <h2 className="text-5xl md:text-7xl tracking-wider uppercase text-blue-500 font-bold">
-          Experience
+          Skills
         </h2>
-        <p className="py-4 max-w-lg">
+        {/* <p className="py-4 max-w-lg">
           whatever whatever asdffffffffffffffffffffffffffffffasdfsadfqwfasdfwwfw
           wqerf sadv zxfwqer
-        </p>
+        </p> */}
 
-        <div className="grid lg:grid-cols-4 gap-8">
+        {/* <div className="grid lg:grid-cols-4 gap-8">
           {experiences.map(({ id, title, src }) => (
             <div
               key={id}
@@ -74,6 +74,36 @@ const Experience = () => {
               <h3 className="font-light"> {title} </h3>
             </div>
           ))}
+        </div> */}
+        <div>
+          <h4 className="text-3xl md:text-3xl tracking-wider uppercase text-white font-bold pt-4">
+            Languages
+          </h4>
+          <p className="text-white">Java, JavaScript, Python, C#, C++, C</p>
+          <h4 className="text-3xl md:text-3xl tracking-wider uppercase text-white font-bold pt-4">
+            Web Technologies
+          </h4>
+          <p className="text-white">
+            RESTful APIs, HTML, CSS, NodeJS, Spring Boot, React, Express, NextJS
+          </p>
+          <h4 className="text-3xl md:text-3xl tracking-wider uppercase text-white font-bold pt-4">
+            Databases
+          </h4>
+          <p className="text-white">
+            MongoDB, SQL, MySQL, Firebase Realtime DB
+          </p>
+          <h4 className="text-3xl md:text-3xl tracking-wider uppercase text-white font-bold pt-4">
+            Game Development Tools
+          </h4>
+          <p className="text-white">
+            Unreal Engine, Unity, Game Maker Studio, Maya
+          </p>
+          <h4 className="text-3xl md:text-3xl tracking-wider uppercase text-white font-bold pt-4">
+            Others
+          </h4>
+          <p className="text-white">
+            Git, CI/CD, Firebase, Linux, Docker, AWS, Postman, Stripe, Twilio
+          </p>
         </div>
       </div>
     </div>
