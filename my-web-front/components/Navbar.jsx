@@ -89,7 +89,7 @@ const Navbar = () => {
         <div
           className={
             navigation
-              ? "fixed left-0 top-0 w-4/5 h-full bg-gradient-to-r from-blue-600 to-cyan-600 text-white p-10 ease-in duration-500"
+              ? "fixed left-0 top-0 w-4/5 h-full bg-gradient-to-r from-black to-slate-700 text-white p-10 ease-in duration-500"
               : "fixed top-0 left-[-100%] p-10 h-full ease-in duration-500"
           }
         >
@@ -131,18 +131,16 @@ const Navbar = () => {
             </ul>
             <div>
               <div className="grid grid-cols-2 mx-auto w-4/5 gap-10">
-                <div className="flex items-center justify-center rounded-full shadow-md shadow-white p-3 cursor-pointer">
-                  <FaLinkedin size={25} />
-                </div>
-                <div className="flex items-center justify-center rounded-full shadow-md shadow-white p-3 cursor-pointer">
-                  <FaTwitter size={25} />
-                </div>
-                <div className="flex items-center justify-center rounded-full shadow-md shadow-white p-3 cursor-pointer">
-                  <FaGithub size={25} />
-                </div>
-                <div className="flex items-center justify-center rounded-full shadow-md shadow-white p-3 cursor-pointer">
-                  <FaFacebook size={25} />
-                </div>
+                <a href="https://www.linkedin.com/in/sheng-hao-5a91511a2/">
+                  <div className="flex items-center justify-center rounded-full shadow-md shadow-white p-3 cursor-pointer">
+                    <FaLinkedin size={25} />
+                  </div>
+                </a>
+                <a href="https://github.com/hoooowsh">
+                  <div className="flex items-center justify-center rounded-full shadow-md shadow-white p-3 cursor-pointer">
+                    <FaGithub size={25} />
+                  </div>
+                </a>
               </div>
             </div>
           </div>
