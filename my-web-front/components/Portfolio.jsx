@@ -4,6 +4,7 @@ import rmp from "../public/assets/portfolio/RMP.png";
 import cynorix_fileshare from "../public/assets/portfolio/Cynorix_fileshare.png";
 import syth from "../public/assets/portfolio/synthbiotic.png";
 import fuzzer from "../public/assets/portfolio/fuzzer.jpg";
+import christina from "../public/assets/portfolio/Christina.png";
 import Link from "next/link";
 import Image from "next/image";
 
@@ -32,6 +33,12 @@ const Portfolio = () => {
       title: "Synthbiotic Dungeon",
       imageSrc: syth,
       url: "synthbiotic-dungeon",
+    },
+    {
+      id: 5,
+      title: "Desktop Assistant",
+      imageSrc: christina,
+      url: "desktop-assistant",
     },
   ];
 

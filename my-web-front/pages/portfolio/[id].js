@@ -3,6 +3,7 @@ import rmp from "../../public/assets/portfolio/RMP.png";
 import cynorix_fileshare from "../../public/assets/portfolio/Cynorix_fileshare.png";
 import fuzzer from "../../public/assets/portfolio/fuzzer.jpg";
 import syth from "../../public/assets/portfolio/synthbiotic.png";
+import christina from "../../public/assets/portfolio/Christina.png";
 import Link from "next/link";
 import Image from "next/image";
 import { FaGithub } from "react-icons/fa";
@@ -51,6 +52,16 @@ const portfolios = [
     description:
       "As a proficient game developer, I played a pivotal role in designing and implementing several key features in a highly popular dungeon game. Among the features that I helped create were the dungeon shop, mini-map, character skills, and many others. My creative contributions to the game were highly valued by the development team, as I brought innovative ideas and a keen attention to detail to every aspect of the project. || Moreover, my strong collaboration skills allowed me to work closely with talented artists and other skilled programmers. This teamwork was critical in seamlessly integrating the various game components, resulting in a highly polished and engaging game experience. Through our combined efforts, we were able to successfully publish the game on the esteemed Steam store, where it continues to garner enthusiastic praise from players around the world.",
     demourl: "https://store.steampowered.com/app/1576880/Synthbiotic_Dungeon/",
+  },
+  {
+    id: 5,
+    title: "Desktop Assistant (Still In Development Process)",
+    imageSrc: christina,
+    url: "desktop-assistant",
+    skills: "Unity, C#",
+    description:
+      "I created a desktop assistant application that utilizes chatbot APIs, complete with a customized user interface. By incorporating AI technology, I anticipate that this app will significantly improve my work efficiency and provide a range of benefits. Given the promising future of AI and chatbots, developing this app has allowed me to gain valuable hands-on experience with these cutting-edge technologies. || Please be aware that this project is currently in the development stage, and additional improvements will be made. Specifically, a more user-friendly interface will be implemented, and model animation based on the responses from the ChatGPT API will be added. These changes will transform the desktop assistant into an even more effective and user-friendly tool.",
+    giturl: "https://github.com/hoooowsh/Christina_Enhance",
   },
 ];
 
