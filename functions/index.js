@@ -33,15 +33,15 @@ const firebaseConfig = {
 firebase.initializeApp(firebaseConfig);
 
 var app = express();
-app.use((req, res, next) => {
-  res.setHeader("Access-Control-Allow-Origin", "*");
-  res.setHeader("Access-Control-Allow-Methods", "GET, POST");
-  res.setHeader(
-    "Access-Control-Allow-Headers",
-    "X-Requested-With, Content-Type, Accept"
-  );
-  next();
-});
+// app.use((req, res, next) => {
+//   res.setHeader("Access-Control-Allow-Origin", "*");
+//   res.setHeader("Access-Control-Allow-Methods", "GET, POST");
+//   res.setHeader(
+//     "Access-Control-Allow-Headers",
+//     "X-Requested-With, Content-Type, Accept"
+//   );
+//   next();
+// });
 app.use(bodyParser.json());
 app.use(cors()); // Enable CORS for all routes
 
