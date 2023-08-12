@@ -29,13 +29,14 @@ const Me = () => {
             professional career.
           </p>
           <p className="py-4 max-w-2xl mx-auto text-white">
-            After completing my Master&apos;s degree in Computer Science from
-            the University of Waterloo, I started my professional journey as a
-            full-stack developer at Cynorix. In this role, I played a key part
-            in developing and maintaining several projects, using my technical
-            skills to deliver high-quality solutions. I also collaborated with
-            team members, providing support and guidance whenever needed, and
-            contributed to the overall growth and success of the company.
+            After completing my Master&apos;s degree in Electrical & Computer
+            Engineering from the University of Waterloo, I started my
+            professional journey as a full-stack developer at Cynorix. In this
+            role, I played a key part in developing and maintaining several
+            projects, using my technical skills to deliver high-quality
+            solutions. I also collaborated with team members, providing support
+            and guidance whenever needed, and contributed to the overall growth
+            and success of the company.
           </p>
           <p className="py-4 max-w-2xl mx-auto text-white">
             As a software engineer, I am deeply committed to staying at the
