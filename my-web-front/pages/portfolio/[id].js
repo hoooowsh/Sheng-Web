@@ -4,6 +4,7 @@ import cynorix_fileshare from "../../public/assets/portfolio/Cynorix_fileshare.p
 import fuzzer from "../../public/assets/portfolio/fuzzer.jpg";
 import syth from "../../public/assets/portfolio/synthbiotic.png";
 import christina from "../../public/assets/portfolio/Christina.png";
+import cyauth from "../../public/assets/portfolio/Cyauth.png";
 import Link from "next/link";
 import Image from "next/image";
 import { FaGithub } from "react-icons/fa";
@@ -62,6 +63,17 @@ const portfolios = [
     description:
       "I created a desktop assistant application that utilizes chatbot APIs, complete with a customized user interface. By incorporating AI technology, I anticipate that this app will significantly improve my work efficiency and provide a range of benefits. Given the promising future of AI and chatbots, developing this app has allowed me to gain valuable hands-on experience with these cutting-edge technologies. || Please be aware that this project is currently in the development stage, and additional improvements will be made. Specifically, a more user-friendly interface will be implemented, and model animation based on the responses from the ChatGPT API will be added. These changes will transform the desktop assistant into an even more effective and user-friendly tool.",
     giturl: "https://github.com/hoooowsh/Christina_Enhance",
+  },
+  {
+    id: 6,
+    title: "Cyauth iOS",
+    imageSrc: cyauth,
+    url: "Cyauth-iOS",
+    skills: "Swift, Objective-C",
+    description:
+    "Spearheaded the in-depth development and design of Cyauth's 2FA tool for iOS, meticulously crafting an intuitive user interface. Successfully rolled out a robust user authentication workflow, integrating advanced features such as QR scanning and user notifications. Collaborating closely with a dedicated team, I played a pivotal role in architecting the software and refining the workflow of Cyauth. This app now stands as an integral and efficient component of the 2FA authentication process.",
+    giturl: "https://github.com/hoooowsh/Cyauth_iOS",
+    demourl: "https://cynorix-authenticator.firebaseapp.com/login",
   },
 ];
 

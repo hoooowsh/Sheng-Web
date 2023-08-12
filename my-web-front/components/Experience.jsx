@@ -79,7 +79,7 @@ const Experience = () => {
           <h4 className="text-3xl md:text-3xl tracking-wider uppercase text-white font-bold pt-4">
             Languages
           </h4>
-          <p className="text-white">Java, JavaScript, Python, C#, C++, C</p>
+          <p className="text-white">Java, JavaScript, Swift, Python, C#, C++, C</p>
           <h4 className="text-3xl md:text-3xl tracking-wider uppercase text-white font-bold pt-4">
             Web Technologies
           </h4>

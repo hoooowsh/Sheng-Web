@@ -5,6 +5,7 @@ import cynorix_fileshare from "../public/assets/portfolio/Cynorix_fileshare.png"
 import syth from "../public/assets/portfolio/synthbiotic.png";
 import fuzzer from "../public/assets/portfolio/fuzzer.jpg";
 import christina from "../public/assets/portfolio/Christina.png";
+import cyauth from "../public/assets/portfolio/Cyauth.png";
 import Link from "next/link";
 import Image from "next/image";
 
@@ -39,6 +40,12 @@ const Portfolio = () => {
       title: "Desktop Assistant",
       imageSrc: christina,
       url: "desktop-assistant",
+    },
+    {
+      id: 6,
+      title: "Cyauth iOS",
+      imageSrc: cyauth,
+      url: "Cyauth-iOS",
     },
   ];
 
